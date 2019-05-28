@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hatibersih"
+    android:layout_height="match_parent"
+    tools:context=".mahadosen">
+
+    <RelativeLayout
+        android:id="@+id/mhdsnok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tabataszoke"/>
+    <TextView
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="Dosen Pengampu"
+        android:textSize="22sp"
+        android:textColor="@color/TextAtas"/>
+    <ImageView
+        android:id="@+id/raidosen"
+        android:layout_below="@+id/mhdsnok"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/mahadosen2"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/raidosen"
+        android:layout_above="@+id/bwhbwhmenu"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bgaok">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Ir. Dr.Bambank botol mp4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="NIP 198410272015042001"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Teknik Informatika"
+            android:textStyle="italic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="E-mail: "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="145dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="bambankbtol@unesa.ac.id"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Nomor Telepon : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="185dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="0856082525252"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Alamat : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/alamatpalsu"
+            android:layout_marginTop="235dp"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Mahadosen085"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/alamatpalsu"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/TextAtas"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="Klik disini untuk Chat Melalui WhatsApp"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

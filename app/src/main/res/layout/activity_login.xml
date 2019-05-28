@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:background="@drawable/sign_in">
+    <ImageView
+        android:id="@+id/marshimtimwh"
+        android:layout_alignParentTop="true"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/logo"
+        android:layout_marginStart="30dp"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/marshimtimwh"
+        android:background="@drawable/input_ortu"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp" />
+    <EditText
+        android:id="@+id/passwrd"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:hint="Password"
+        android:paddingStart="30dp"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/user"
+        android:inputType="numberPassword"
+        android:background="@drawable/input_password"/>
+    <TextView
+        android:id="@+id/laliaku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password ?, Hubungi Humas PPTI unesa"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/passwrd"/>
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/laliaku"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_login"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatibersih"
+    tools:context=".aboutActivity">
+
+    <RelativeLayout
+        android:id="@+id/ngatas"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/taboke">
+
+        <RelativeLayout
+            android:paddingEnd="10dp"
+            android:layout_toLeftOf="@+id/s"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center|end"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Mamank husein Kopyah"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextAtas"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_below="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:text="170505974031"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextAtas"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/s"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ilinkkmama"
+        android:layout_below="@+id/ngatas"
+        android:layout_above="@+id/tentangrelativitas"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logow"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/tentangrelativitas"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/tentangaja"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

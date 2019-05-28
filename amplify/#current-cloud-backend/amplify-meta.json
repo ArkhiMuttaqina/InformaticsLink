@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "informaticlinks-android-20190511011409-authRole",
+            "UnauthRoleArn": "arn:aws:iam::759406970352:role/informaticlinks-android-20190511011409-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::759406970352:role/informaticlinks-android-20190511011409-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "informaticlinks-android-20190511011409-deployment",
+            "UnauthRoleName": "informaticlinks-android-20190511011409-unauthRole",
+            "StackName": "informaticlinks-android-20190511011409",
+            "StackId": "arn:aws:cloudformation:us-east-1:759406970352:stack/informaticlinks-android-20190511011409/690310d0-734f-11e9-bc8d-0e1ffe4de6a4"
+        }
+    }
+}

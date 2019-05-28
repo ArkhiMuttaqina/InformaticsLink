@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hatibersih"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileActivity">
+    <RelativeLayout
+        android:id="@+id/profelmhsz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tabataszoke">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btnlogout" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/buruhtanimaharryasiswa"
+        android:layout_below="@+id/profelmhsz"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/userpropel"/>
+
+    <RelativeLayout
+        android:layout_above="@+id/bwhbwhmenu"
+        android:layout_below="@+id/buruhtanimahasiswa"
+        android:layout_width="390dp"
+        android:layout_height="370dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bgaok">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Husein kasbor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="35sp"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="17090286382"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Teknik Informatika"
+            android:textStyle="italic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:textColor="@color/TextAtas"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Nama Orang Tua : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="145dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Mamang kasbor"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Nomor Telepon : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="185dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="0856082525252"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="235dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Mahadosen085"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwhbwhmenu"
+        android:layout_above="@+id/bwh_menu"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp">
+
+        <ImageButton
+
+            android:id="@+id/ukt"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_ukt" />
+
+        <ImageButton
+            android:id="@+id/krs"
+            android:paddingEnd="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_krs" />
+
+        <ImageButton
+            android:id="@+id/khs"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_khs" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwh_menu"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:id="@+id/jadwal"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_jadwal" />
+
+        <ImageButton
+            android:id="@+id/presens"
+            android:paddingEnd="10dp"
+            android:layout_centerInParent="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_presensi" />
+
+        <ImageButton
+            android:id="@+id/dsen"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_dosen" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
